@@ -1,0 +1,22 @@
+.menu-bar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.menu-bar__title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu-bar__icon{
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar__icon i{
+    margin-left: 20px;
+    font-size: 20px;
+}
