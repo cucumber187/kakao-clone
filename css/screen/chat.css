@@ -26,9 +26,19 @@
     margin-bottom: 30px;
 }
 
+@keyframes recievemessagemove{
+    from{
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
 .receive-message{
     display: flex;
     margin-bottom: 10px;
+    animation: 1s recievemessagemove ease-in-out;
 }
 
 .receive-message img{
@@ -69,10 +79,21 @@
 }
 
 /*send message*/
+
+@keyframes sendmessagemove{
+    from{
+        transform: translateX(150px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
 .send-message{
     display: flex;
     margin-bottom: 10px;
     position: relative;
+    animation: 1s sendmessagemove ease-in-out;
 }
 
 .send-message__message{
