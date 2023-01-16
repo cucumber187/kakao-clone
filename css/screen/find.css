@@ -1,0 +1,84 @@
+.find-menu{
+    display: flex;
+    margin: 35px 0px;
+    justify-content: space-between;
+}
+
+.find-menu__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-menu__icon i{
+    margin-bottom: 22px;
+}
+
+.find-menu__icon span{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-recommended{
+    border-top: 2px solid var(--font-color);
+    padding-top: 10px;
+    margin-bottom: 108px;
+}
+
+.find-recommended__text{
+    margin-top: 108px;
+    display: flex;
+    justify-content: center;
+}
+
+.find__open-chat{
+    border-top: 2px solid var(--font-color);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find__chatlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find__chatlist-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.find__chatlist-title,
+.find__chatlist-content{
+    margin-bottom: 10px;
+}
+
+.find__chatlist-member{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.find__chatlist-member div{
+    display: flex;
+    border: 1px solid var(--font-color);
+    height: 14px;
+    margin: 0px 5px;
+}
+
+.find__chatlist-member img{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.find__chatlist-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
