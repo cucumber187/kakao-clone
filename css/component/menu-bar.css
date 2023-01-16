@@ -6,6 +6,19 @@
     padding: 0px 20px;
 }
 
+@keyframes cog-move{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.menu-bar .fa-cog:hover{
+    animation: 1s cog-move ease-in-out infinite;
+}
+
 .menu-bar__title{
     font-size: 25px;
     font-weight: 700;
