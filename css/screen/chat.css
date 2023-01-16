@@ -1,0 +1,44 @@
+
+.chat-title{
+    position: fixed;
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.chat-day{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-day__text{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid var(--font-color);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.receive-message{
+    display: flex;
+}
+
+.receive-message img{
+    width: 45px;
+    height: 45px;
+    border-radius: 17px;
+    margin-right: 7px;
+}
+
+.receive-message__name{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.receive-message__content{
+    border: 1px solid var(--font-color);
+    padding: 15px;
+}
