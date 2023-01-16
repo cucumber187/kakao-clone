@@ -38,8 +38,18 @@
 
 .user-profile__text-small{
     display: flex;
-    flex-direction: column;
     font-size: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.user-profile__text-small span{
+    width: 50%;
+}
+
+.user-profile__text-small span:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*midiume profile*/
@@ -69,7 +79,13 @@
     margin-top: 5px;
 }
 
+.chats-profile{
+    position: relative;
+}
+
 .user-profile__side{
     font-size: 13px;
+    position: absolute;
+    right: 0px;
 }
 
