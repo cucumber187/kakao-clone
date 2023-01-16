@@ -21,9 +21,45 @@
 }
 
 .user-profile__channel{
+    width: 100%;
     border-top: 1px solid var(--font-color);
     margin-top: 17px;
     margin-bottom: 23px;
     padding-top: 13px;
     font-size: 13px;
+    display: flex;
+}
+
+.user-profile__channel span,
+.user-profile__channel i{
+    display: flex;
+    width: 50%;
+}
+
+.user-profile__channel i{
+    justify-content: flex-end;
+}
+
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen{
+    background-color:black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 0.2s ease-in-out forwards;
+    animation-delay: 2s;
 }
