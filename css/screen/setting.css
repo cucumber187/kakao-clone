@@ -1,0 +1,41 @@
+.settings-title{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.settings-title div,
+.settings-title a,
+.settings-title h1{
+    width: 33%;
+}
+
+.settings-title h1{
+    display: flex;
+    justify-content: center;
+}
+
+.settings-title a i:first-child{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.settings-title div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.settings-title div > .fa-bars{
+    margin-left: 20px;
+}
+
+.settings-list__li{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.settings-list__li i{
+    margin-right: 25px;
+}
