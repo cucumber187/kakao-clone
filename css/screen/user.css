@@ -1,0 +1,29 @@
+.menu-bar__under-text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--font-color);
+    height: 40px;
+    border-radius: 10px;
+}
+
+.menu-bar__under-text i:first-child{
+    margin-right: 5px;
+}
+
+.menu-bar__under-text i:last-child{
+    margin-left: 8px;
+}
+
+.main-screen{
+    margin-top: 10px;
+}
+
+.user-profile__channel{
+    border-top: 1px solid var(--font-color);
+    margin-top: 17px;
+    margin-bottom: 23px;
+    padding-top: 13px;
+    font-size: 13px;
+}
