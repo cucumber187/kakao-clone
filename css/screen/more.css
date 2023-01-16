@@ -1,0 +1,33 @@
+.more-profile{
+    margin: 30px 0px;
+}
+
+.more-advertisement{
+    border-top: 2px solid var(--font-color);
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.more-advertisement > span{
+    padding-bottom: 24px;
+}
+
+.more-advertisement__content{
+    display: flex;
+}
+
+.more-advertisement__content img{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.more-advertisement__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.more-advertisement__text span{
+    padding-bottom: 10px;
+}
