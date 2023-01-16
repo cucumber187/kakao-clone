@@ -1,0 +1,75 @@
+
+.main-screen{
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chat-link{
+    display: flex;
+    margin-top: 35px;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+/*big profile*/
+.user-profile__img{
+    width: 65px;
+    height: 65px;
+    margin-right: 12px;
+    border-radius: 20px;
+}
+
+.user-profile__text{
+    display: flex;
+    flex-direction: column;
+}
+
+/*small profile*/
+.user-profile__img-small{
+    width: 46px;
+    height: 46px;
+    margin-right: 12px;
+    border-radius: 15px;
+}
+
+.user-profile__text-small{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+/*midiume profile*/
+.user-profile__midiume{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile__img-midiume{
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+    border-radius: 20px;
+}
+
+.user-profile__text-midiume{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.user-profile__text-name{
+    font-size:20px;
+}
+
+.user-profile__text-meaaage{
+    margin-top: 5px;
+}
+
+.user-profile__side{
+    font-size: 13px;
+}
+
