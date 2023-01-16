@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=DotGothic16&display=swap');
+
+@import "reset.css";
+/*component*/
+@import "component/status-bar.css";
+@import "component/menu-bar.css";
+@import "component/profile.css";
+@import "component/navigation.css";
+
+/*screen*/
+@import "screen/welcome.css";
+@import "screen/user.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chat.css";
