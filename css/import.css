@@ -9,7 +9,7 @@
 @import "component/no-mobile.css";
 
 /*screen*/
-@import "screen/welcome.css";
+@import "screen/index.css";
 @import "screen/user.css";
 @import "screen/find.css";
 @import "screen/more.css";
